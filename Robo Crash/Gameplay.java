@@ -35,12 +35,12 @@ public class Gameplay { // class hanya untuk bermain (interface abal-abal)
         Ranged AA72 = new Ranged("AA72", "Marksman", 10000, 1500, 63);
         Support Croselle = new Support("Croselle", "Support", 5000, 500, 71);
 
-        showSmallRobot();   // tampilkan robot kecil di map
         allies.add(OGHMA);
         allies.add(Marchosias);
         allies.add(MK99);
         allies.add(AA72);
         allies.add(Croselle);
+        showSmallRobot();   // tampilkan robot kecil di map
 
         Melee Sandalphon = new Melee("Sandalphon", "Boss", 50000, 1000, 26);
         Ranged Metatron = new Ranged("Metatron", "Boss", 50000, 1000, 16);
